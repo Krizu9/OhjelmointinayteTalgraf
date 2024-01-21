@@ -18,6 +18,21 @@
     margin-right: 50px;
 }
 
+#btns {
+    opacity: 0.5;
+}
+
+#btns:hover {
+    opacity: 1;
+}
+
+.dropdown-item {
+    opacity: 0.7;
+}
+
+.dropdown-item:hover {
+    opacity: 1;
+}
 
 @media (max-width: 768px) {
     .modal-dialog {
@@ -29,9 +44,5 @@
     .modal-content {
         width: 100%;
         font-size: 16px;
-    }
-
-    .tspan {
-        font-size: px;
     }
 }
