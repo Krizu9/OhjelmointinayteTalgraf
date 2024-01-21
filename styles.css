@@ -1,0 +1,37 @@
+.modal-dialog {
+    max-width: 800px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-primary {
+    margin: 0 auto;
+}
+
+.dropdown {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-content {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .tspan {
+        font-size: px;
+    }
+}
